@@ -251,11 +251,16 @@ padding: 50px 250px;
         margin: 0;
         padding: 0;
     }
+    .two .three{
+        position: relative;
+    }
     .two span{
         display: block;
+        position: absolute;
     }
     .three span{
         display: block;
+        position: absolute;
     }
     .form-one input{
         width: 350px;
