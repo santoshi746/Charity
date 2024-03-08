@@ -193,7 +193,7 @@ padding: 50px 250px;
 }
 @media only screen and (max-width:400px){
     .carousel-caption{
-        bottom: 35px;
+        bottom: 5px;
     }
     .carousel-caption h5{
         font-size: 10px;
@@ -229,7 +229,7 @@ padding: 50px 250px;
 }
 @media only screen and (max-width:500px){
     .carousel-caption{
-        bottom: 50px;
+        bottom: 10px;
     }
     .carousel-caption h5{
         font-size: 17px;
