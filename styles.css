@@ -141,9 +141,6 @@ padding: 50px 250px;
 .btn_five:hover{
     background-color:#59A209;
 }
-.request{
-    text-decoration: none;
-}
 .form-one input{
     background-color: #083333cf;
 }
@@ -202,9 +199,19 @@ padding: 50px 250px;
     #btn_four{
         margin: 0% 35%;
     }
+    .two span{
+        display: block;
+    }
+    .three span{
+        display: block;
+    }
     .footer{
         margin: 0px;
         padding: 0;
+    }
+    textarea{
+        width: 350px;
+        overflow: hidden;
     }
 }
 @media only screen and (max-width:500px){
@@ -219,8 +226,18 @@ padding: 50px 250px;
         margin: 0;
         padding: 0;
     }
+    .two span{
+        display: block;
+    }
+    .three span{
+        display: block;
+    }
     .form-one input{
         width: 350px;
+    }
+    textarea{
+        width: 360px !important;
+        overflow: hidden;
     }
    #video{
     margin: 10px;
