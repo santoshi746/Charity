@@ -14,29 +14,39 @@
   <body>
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="ICON.png" class="icon" alt="">NAVBAR</a>
-        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand text-light" href="#">NAVBAR</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="bi bi-list"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-dark" href="main.html">Home</a>
+              <a class="nav-link text-light" href="main.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#about">About</a>
+              <a class="nav-link text-light" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#help">Help us</a>
+              <a class="nav-link text-light" href="#help">Know more</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#contact">contact</a>
+              <a class="nav-link text-light" href="#contact">contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#modal" data-bs-toggle="modal" data-bs-target="#login">login</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown" >Donate</a>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="form1.html">Pilonthropist</a></li>
+                  <li><a class="dropdown-item" href="form1.html">MNC's</a></li>
+                </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#Signin" data-bs-target="#Signin" data-bs-toggle="modal">sign</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown2" data-bs-toggle="dropdown" >Help us</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="user.html">Shelter</a></li>
+                <li><a class="dropdown-item" href="user.html">Health</a></li>
+                <li><a class="dropdown-item" href="user.html">Education</a></li>
+                <li><a class="dropdown-item" href="user.html">Food</a></li>
+              </ul>
             </li>
             
         </div>
@@ -51,6 +61,21 @@
       </div>
       <div class="carousel-inner mx-auto">
         <div class="carousel-item active">
+          <video class="video-fluid w-100 h-50" autoplay muted >
+              <source src="https://cdn.pixabay.com/video/2024/03/02/202623-918779869_tiny.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="carousel-item ">
+          <video class="video-fluid w-100 h-50" autoplay muted>
+              <source src="https://media.istockphoto.com/id/1278323144/video/hand-putting-coins-in-glass-jar-with-donate-word-written-text-label.mp4?s=mp4-640x640-is&k=20&c=6s37AxN5JZV6ulutRbHTWoUdUI98EsrgDHAmgVpxQnQ=" type="video/mp4">
+          </video>
+        </div>
+        <div class="carousel-item ">
+          <video class="video-fluid w-100 h-50" autoplay muted>
+              <source src="https://media.istockphoto.com/id/1445825322/video/children-holding-a-planet-outdoors.mp4?s=mp4-640x640-is&k=20&c=4lp97JVao33j0C-zXQkbUwLTHag7F82qZ0ypBJmufWQ=" type="video/mp4">
+          </video>
+        </div>
+        <!-- <div class="carousel-item active">
           <img src="https://us.123rf.com/450wm/mohsinmajeed7/mohsinmajeed72401/mohsinmajeed7240103029/223362708-panoramic-view-of-the-sea-waves-and-sky-with-clouds.jpg?ver=6" class="d-block img_carousel" alt="...">
         </div>
           <div class="carousel-item">
@@ -58,12 +83,12 @@
         </div>
         <div class="carousel-item">
           <img src="https://cdn.pixabay.com/photo/2018/06/03/14/17/sea-3450584_1280.jpg" class="d-block img_carousel" alt="...">
-        </div>
-        <div class="carousel-caption"> 
+        </div> -->
+        <!-- <div class="carousel-caption"> 
           <h2 class="heading">Posuere suspendisse venenatis tempus dolor lacinia</h2>
           <p>Velit est et urna mauris in mauris sed vitae vitae purus nulla varius risus ipsum et pulvinar erat egestas ac.</p>
-          <footer><a class="btn btn_one text-light" href="#">Consectetur</a></footer>
-    </div>
+          
+    </div> -->
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel_one" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" ></span>
@@ -74,110 +99,94 @@
     </div>
 <!--carousel end-->
 <!--Row first start-->
-<div class="container" id="about">
-  <div class="row" id="row_one">
-    <div class="col">
-      <div class="one">
-        <h3> <i class="bi bi-alarm"></i>VOLUNTEERING</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, tempora. Iste vel illum, ea repellat accusamus eos asperiores temporibus ullam quasi et. Quod sapiente delectus, ullam, minus, molestias consectetur ab deserunt aut ut dignissimos omnis.</p>
-        <a class="btn btn_two text-light" href="#">Consectetur</a>
-      </div>
-    </div>
-    <div class="col">
-      <div class="two">
-        <span><h3><i class="bi bi-book"></i>EDUCATION</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil unde minima illo quae et exercitationem obcaecati corrupti nisi praesentium eaque.</p>
-       <a href="" class="anchor_one">view details>></a></span><br><br>
-        <span><h3><i class="bi bi-lungs"></i>HOSPITALITY</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur reiciendis aperiam quibusdam beatae molestiae earum!</p>
-      <a href="" class="anchor_one">view details>></a></span>
-      </div>
-    </div>
-    <div class="col">
-      <div class="three">
-       <span><h3><i class="bi bi-house-heart"></i>SHELTER</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officia officiis temporibus reprehenderit ea aperiam.</p>
-        <a href="" class="anchor_one">view details>></a></span><br><br>
-        <span><h3><i class="bi bi-bag-check"></i>FOOD AND WEARING</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere velit labore officia architecto error tempora.</p>
-      <a href="" class="anchor_one">view details>></a></span>
-      </div>
-    </div>
-  </div>
+<div class="container py-5">
+  <h2 class="text-center text-light">On Hover Change Icon Color </h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+<div class="col">
+<div class="card card_one">
+<i class="bi icon bi-wifi-off"></i>
+<div class="card-body">
+  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis placeat odio facere vero voluptatem dolor itaque exercitationem dolore nam doloribus.</p>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="card card_one">
+  <i class="bi icon bi-wechat"></i>
+<div class="card-body">
+  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis placeat odio facere vero voluptatem dolor itaque exercitationem dolore nam doloribus.</p>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="card card_one">
+  <i class="bi icon bi-whatsapp"></i>
+<div class="card-body">
+  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis placeat odio facere vero voluptatem dolor itaque exercitationem dolore nam doloribus.</p>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="card card_one">
+  <i class="bi icon bi-wordpress"></i>
+<div class="card-body">
+  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis placeat odio facere vero voluptatem dolor itaque exercitationem dolore nam doloribus.</p>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="card card_one">
+  <i class="bi icon bi-universal-access-circle"></i>
+<div class="card-body">
+  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis placeat odio facere vero voluptatem dolor itaque exercitationem dolore nam doloribus.</p>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="card card_one">
+  <i class="bi icon bi-tags"></i>
+<div class="card-body">
+  <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis placeat odio facere vero voluptatem dolor itaque exercitationem dolore nam doloribus.</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 <!--Row first end-->
 <!--row second start-->
-    <div class="container-fluid" id="help">
-      <div class=" row row_two">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <div class="img1">
-                <img src="https://cdn.pixabay.com/photo/2017/07/06/14/44/help-2478193_640.jpg" alt="">
-              </div>
-              <div class="img2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_6gCbJ2bvu48j4eXNyVDpK9tJCX6T2GyV9w&usqp=CAU" alt="">
-              </div>
-              <div class="main">
-                <h1>Help-Seeker</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum assumenda ullam vitae obcaecati vero quo nemo id tenetur eveniet culpa at, aspernatur tempore harum earum sed, cumque illum dignissimos quas?</p>
-                <a class="btn btn_three text-light" href="#">For More...</a>
-              </div>
-            </div>
+<div class="container" id="help">
+  <marquee behavior="" direction="left"><h1 class="display-3 text-decoration-underline text-light"><i>HELP US TO IMPROVE</i></h1></marquee>
+  <div class="row my-5">
+    <div class="col-lg-6 mb-lg-12">
+      <!-- <img id="img_three" src="https://cdn.pixabay.com/photo/2019/04/05/16/45/question-4105529_640.jpg" alt=""> -->
+      <div class="carousel slide" id="carousel_two" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdn.pixabay.com/photo/2019/04/05/16/45/question-4105529_640.jpg" alt="Los Angeles" class="d-block" id="img_three" style="width:100%">
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <div class="img1">
-                <img src="https://cdn.pixabay.com/photo/2017/02/07/14/05/humanity-2045992_640.jpg" alt="">
-              </div>
-              <div class="img2">
-                <img src="https://cdn.pixabay.com/photo/2021/01/29/17/24/hand-5961660_640.jpg" alt="">
-              </div>
-              <div class="main">
-              <h1>Pilonthropist</h1>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum assumenda ullam vitae obcaecati vero quo nemo id tenetur eveniet culpa at, aspernatur tempore harum earum sed, cumque illum dignissimos quas?</p>
-              <a class="btn btn_three text-light" href="#">For More...</a>
-            </div>
-            </div>
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2021/11/06/17/01/support-6773819_640.png" alt="Chicago" class="d-block" id="img_three" style="width:100%">
           </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <div class="img1">
-                <img src="https://t4.ftcdn.net/jpg/06/47/42/53/240_F_647425303_DeaG9dlS6BpRRjbgCePXBAtKJhw1RS09.jpg" alt="">
-              </div>
-              <div class="img2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzgWSFuw44fti-TVjC0dNrkJPl_xxI3dkjig&usqp=CAU" alt="">
-              </div>
-              <div class="main">
-              <h1>MNC's</h1>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum assumenda ullam vitae obcaecati vero quo nemo id tenetur eveniet culpa at, aspernatur tempore harum earum sed, cumque illum dignissimos quas?</p>
-              <a class="btn btn_three text-light" href="#">For More...</a>
-            </div>
-            </div>
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2021/10/25/17/28/donation-6741633_640.jpg" alt="New York" class="d-block" id="img_three" style="width:100%">
           </div>
         </div>
       </div>
     </div>
-    <!--row second end-->
-    <!--row third start-->
-<div class="container">
-  <h1 class="display-3 text-decoration-underline text-center">HELP US TO IMPROVE</h1>
-  <div class="row my-5">
-    <div class="col">
-      <img id="img_three" src="https://cdn.pixabay.com/photo/2019/04/05/16/45/question-4105529_640.jpg" alt="">
-    </div>
-    <div class="col">
-      <div class="accordion" id="Accor_one">
+    <div class="col-lg-6 mb-lg-12" >
+      <div class="accordion" id="Accor_one" >
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_one">SHELTER</button>
           </h2>
           <div id="collapse_one" class="accordion-collapse collapse show" data-bs-parent="#Accor_one">
-            <div class="accordion-body">
+            <div class="accordion-body" >
               <p>
                 Asha Bhawan Trust of India is a NGO committed to restoring broken lives, especially those on the slippery slope of homelessness and social exclusion. For that purpose we offer a safe, structured environment for making a fresh start in life for all those wanting to rebuild their lives.</p>
             </div>
@@ -212,17 +221,114 @@
           </div>
         </div>
       </div>
-      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, doloribus ea corrupti iste alias impedit dolor nihil dignissimos dolores ipsam placeat ipsa nulla vero? Corporis, nostrum assumenda mollitia tempora commodi delectus sapiente. Quisquam saepe deserunt, dolore facere vitae harum perferendis! Quidem voluptatum quisquam beatae consequatur, quibusdam magni aliquid saepe necessitatibus sunt velit, placeat repudiandae eligendi obcaecati minima similique dolorem eos!</p> -->
-      <!-- <a class="btn btn_two text-light" id="btn_four" href="#">Consectetur</a> -->
+      
     </div>
   </div>
 </div>
   </div>
 </div>
+    <!--row second end-->
+    <!--row third start-->
+<div class="container py-5 content_team">
+  <h1 class="text-center text-light">Our Team</h1>
+  <div class="line"></div>
+  <p class="text-center text-light mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, in?</p>
+  <div class="row row-cols-1 row-cols-md-2 g-4 py-5">
+      <div class="col col_team">
+          <div class="card mb-3 card_team" style="max-width: 540px;">
+              <div class="row g-0">
+                  <div class="col-md-4 col_4_team">
+                      <img src="https://cdn.pixabay.com/photo/2023/04/21/15/42/portrait-7942151_640.jpg" class="img-fluid img_team rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col_8_team">
+                      <div class="card-body">
+                          <h5 class="card-title">Ervin Howell</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, est?</p>
+                          <p class="card-text"><small>Designation : Full-stack</small></p>
+                      </div>
+                      <div class="d-flex justify-content-around">
+                          <i class="bi icon_team bi-facebook"></i>
+                          <i class="bi icon_team bi-instagram"></i>
+                          <i class="bi icon_team bi-envelope-check-fill"></i>
+                          <i class="bi icon_team bi-linkedin"></i>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col col_team">
+          <div class="card mb-3 card_team" style="max-width: 540px;">
+              <div class="row g-0">
+                  <div class="col-md-4 col_4_team">
+                      <img src="https://cdn.pixabay.com/photo/2023/04/21/15/42/portrait-7942151_640.jpg" class="img-fluid img_team rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col_8_team">
+                      <div class="card-body">
+                          <h5 class="card-title">Ervin Howell</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, est?</p>
+                          <p class="card-text"><small>Designation : Front-end</small></p>
+                      </div>
+                      <div class="d-flex justify-content-around">
+                          <i class="bi icon_team bi-facebook"></i>
+                          <i class="bi icon_team bi-instagram"></i>
+                          <i class="bi icon_team bi-envelope-check-fill"></i>
+                          <i class="bi icon_team bi-linkedin"></i>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col col_team">
+          <div class="card mb-3 card_team" style="max-width: 540px;">
+              <div class="row g-0">
+                  <div class="col-md-4 col_4_team">
+                      <img src="https://cdn.pixabay.com/photo/2021/06/25/13/22/girl-6363743_640.jpg" class="img-fluid img_team rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col_8_team">
+                      <div class="card-body">
+                          <h5 class="card-title">Ervin Howell</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, est?</p>
+                          <p class="card-text"><small>Designation : Java Developer</small></p>
+                      </div>
+                      <div class="d-flex justify-content-around">
+                          <i class="bi icon_team bi-facebook"></i>
+                          <i class="bi icon_team bi-instagram"></i>
+                          <i class="bi icon_team bi-envelope-check-fill"></i>
+                          <i class="bi icon_team bi-linkedin"></i>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col col_team">
+          <div class="card mb-3 card_team" style="max-width: 540px;">
+              <div class="row g-0">
+                  <div class="col-md-4 col_4_team">
+                      <img src="https://cdn.pixabay.com/photo/2015/03/03/08/55/portrait-657116_640.jpg" class="img-fluid img_team rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8 col_8_team">
+                      <div class="card-body">
+                          <h5 class="card-title">Ervin Howell</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, est?</p>
+                          <p class="card-text"><small>Designation : Full-stack</small></p>
+                      </div>
+                      <div class="d-flex justify-content-around">
+                          <i class="bi icon_team bi-facebook"></i>
+                          <i class="bi icon_team bi-instagram"></i>
+                          <i class="bi icon_team bi-envelope-check-fill"></i>
+                          <i class="bi icon_team bi-linkedin"></i>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 <!--row third end-->
+<hr>
 <!--contact us start-->
-<section class="footer" id="contact">
-
+<section class="footer">
+  <h2 class="text-center text-light display-3"><i>Contact us</i></h2>
   <div class="box-container">
     <div class="box">
       <h1 id="address_heading" class="text-light">Address</h1>
@@ -246,11 +352,11 @@
           <textarea name="comment" id="#comment" cols="47" rows="7" ></textarea>
           <label for="comment" class="form-label text-light">Comment</label>
         </div>
-        <button class="btn_five btn">Submit</button>
+        <button class="btn btn-outline-light">Submit</button>
       </form>
     </div>
     <div class="box">
-      <video src="https://cdn.pixabay.com/vimeo/791334020/counseling-147244.mp4?width=640&hash=b9b29d3f9d63cad9a16b9aabf65a985a02ccfb69" autoplay muted id="video"> </video>
+      <video src="https://media.istockphoto.com/id/1316103626/video/sorting-clothes-for-donation.mp4?s=mp4-640x640-is&k=20&c=rasL-XESdOy4Mwwsqmd-tuphqE7R7HY_6ppAWiIuPQ4=" autoplay muted id="video"> </video>
     </div>
   </div>
 </section>
