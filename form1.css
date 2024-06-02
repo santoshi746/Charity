@@ -1,0 +1,18 @@
+body{
+  background: linear-gradient(to right, teal ,purple);
+}
+.btn{
+    display: block;
+}
+.main{
+  background: linear-gradient(to right, teal ,purple);
+  height: 710px;
+}
+form{
+margin: 40px 40px;
+
+}
+label{
+margin: 3px;
+}
+

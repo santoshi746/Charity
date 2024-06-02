@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Registration</title>
+    <link rel="stylesheet" href="form1.css">
+    <script src="form1.js"></script>
+</head>
+<body>
+    <div class="container-fluid  main">
+      <h2 class="text-center text-light my-3"><i> REGISTRATION FORM</i></h2>
+    <!-- <iframe src="#form" frameborder="0" width="1300px" height="750px" ></iframe> -->
+<form action="" method="POST" enctype="multipart/form-data" id="form" class="my-5" onsubmit="return validation()">
+  <input type="hidden" name="Id">
+  <div class="row my-2 mx-2">
+    <span class="text-light my-3">Personal details:</span>
+    <div class="col-4 form-floating">
+      <input type="text" name="Firstname" id="Firstname" class="form-control" placeholder="Enter Firstname">
+      <label for="Firstname" class="form-label">Firstname</label>
+    </div>
+    <div class="col-4 form-floating">
+      <input type="text" name="Middlename" id="middlename" class="form-control" placeholder="Enter middlename">
+      <label for="middlename" class="form-label">middlename</label>
+    </div>
+    <div class="col-4 form-floating">
+      <input type="text" name="Lastname" id="Lastname" class="form-control" placeholder="Enter Lastname">
+      <label for="Lastname" class="form-label">Lastname</label>
+    </div>
+  </div>
+  <div class="row my-2 mx-2">
+    <div class="col form-floating">
+      <input type="number" name="number" id="number" class="form-control" placeholder="Enter number" pattern="[7-9]{1}[0-9]{9}" required>
+      <label for="number" class="form-label">Mobile</label>
+    </div>
+    <div class="col form-floating">
+      <input type="email" name="email" id="email" class="form-control" placeholder="Enter email">
+      <label for="email" class="form-label">Email address</label>
+    </div>
+  </div>
+  <div class="row my-2 mx-2">
+    <div class="form-floating col-4">
+      <input type="number" name="PAN" id="PAN" class="form-control" placeholder="Enter PAN">
+      <label for="PAN" class="form-label">PAN</label>
+    </div>
+    <div class="form-floating col-4">
+      <input type="number" name="Aadhar" id="Aadhar" class="form-control" placeholder="Enter Aadhar">
+      <label for="Aadhar" class="form-label">Aadhar no</label>
+    </div>
+    <div class="form-floating col-4">
+      <input type="file" name="Proof" id="Proof" class="form-control" placeholder="Upload File">
+    </div>
+  </div>
+  <div class="row my-2 mx-2">
+    <div class="col-8 form-floating">
+      <input type="text" name="address" id="address" class="form-control" placeholder="address" >
+      <!-- <textarea name="Address" id="Address" cols="125" rows="2" placeholder="Address"></textarea> -->
+      <label for="Address" class="form-label">Address</label>
+    </div>
+    <div class="col-4 form-floating">
+      <input type="number" name="pincode" id="pincode" class="form-control" placeholder="Enter pincode">
+      <label for="pincode" class="form-label">Zip Code</label>
+    </div>
+    <span class="text-light my-3">Company details:</span>
+  </div>
+  <div class="container">
+    <input type="checkbox" name="MNC" id="MNC" placeholder="MNC or Not" value="MNC" onclick="mnc()"> 
+    <span class="text-light">Woring in MNC
+    </span> 
+  </div>
+  <div class="row my-2 mx-2">
+    
+      <div class="col-4 form-floating">
+        <input type="text" name="Comp_name" id="Comp_name" class="form-control" placeholder="enter company name" disabled>
+        <label for="Comp_name" class="form-label">Company name</label>
+      </div>
+      <div class="col-4 form-floating">
+        <input type="number" name="emp_id" id="emp_id" class="form-control" placeholder="Employee id" disabled>
+        <label for="emp_id" class="form-label">Employee Id</label>
+      </div>
+      <div class="col-4 form-floating">
+        <input type="file" name="comp_proof" id="comp_proof" class="form-control" placeholder="Company proof" disabled>
+      </div>
+    </div>
+    <div class="container">
+        <input type="checkbox" name="term" id="term" placeholder="Terms & conditions" value="Accepted" onclick="terms()"> <a href="#" class="text-decoration-none text-light">Terms & conditions</a> <br><br>
+        <input type="submit" value="Register"class="btn d-block mx-auto btn-outline-light" name="submit" id="submit_btn" disabled>
+        
+    </div>
+    <a href="login-1.html" class="d-block text-center text-light my-2">Existing User? Log in</a>
+</form>
+    </div>
+
+<script>
+    
+</script>
+<script src="form1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

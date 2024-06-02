@@ -1,0 +1,27 @@
+body{
+  background: linear-gradient(to right, teal, purple);
+}
+.btn{
+    display: block;
+}
+.main{
+ background: linear-gradient(to right, teal, purple);
+  height: 710px;
+}
+form{
+margin: 40px 40px;
+
+}
+label{
+margin: 3px;
+}
+.img img{
+  width: 180px; 
+  height: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .img img{
+      display: block;
+      margin: auto;
+  }
+}
